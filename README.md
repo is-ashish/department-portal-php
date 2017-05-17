@@ -4,4 +4,5 @@
 
 
 ![alt tag](https://raw.githubusercontent.com/ashish-uiet/summer_trainning-HPE-/master/img/facebook_world_network-1920x1080.jpg)
-
+![alt tag](https://raw.githubusercontent.com/ashish-uiet/summer_trainning-HPE-/master/img/homepic.png)
+![alt tag](https://raw.githubusercontent.com/ashish-uiet/summer_trainning-HPE-/master/img/projectpi.png)
