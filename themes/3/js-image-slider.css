@@ -1,0 +1,79 @@
+/* http://www.menucool.com */
+
+#sliderFrame, #sliderFrame div {
+    box-sizing: content-box;
+}
+#sliderFrame {
+    width:670px; 
+    margin: 0 auto; /*center-aligned*/
+}
+
+#slider, #slider .sliderInner {
+    width:670px;height:350px;/* Must be the same size as the slider images */
+    border-radius:0px;
+}
+
+#slider {
+    background-color:white;
+    position:relative;
+    margin:0 auto; /*center-aligned*/
+    transform: translate3d(0,0,0);
+}
+
+/* the link style (if slide image is wrapped by a link) */
+#slider a.imgLink, #slider .video {
+    z-index:2;
+    cursor:pointer;
+    position:absolute;
+    top:0px;left:0px;border:0;padding:0;margin:0;
+    width:100%;height:100%;
+}
+#slider .video {
+    background:transparent url(video.png) no-repeat 50% 50%;
+}
+
+
+/* ------ built-in navigation bullets wrapper ------*/
+#slider .navBulletsWrapper  {
+    display:none;
+}
+
+/* --------- Others ------- */
+
+#slider img, #slider>b, #slider a>b {
+    position:absolute; border:none; display:none;
+}
+
+#slider .sliderInner {
+    overflow:hidden;
+    position:absolute; top:0; left:0;
+}
+
+#slider>a, #slider video, #slider audio {display:none;}
+#slider div {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+
+
+
+/* -- thumbnails -- */
+#thumbs
+{
+    background-color:#000d1d ;
+    border:2px solid #266ff3; 
+    border-radius:8px;
+    text-align:center;
+    font-size:0px;
+    line-height:45px;
+}
+#thumbs .thumb 
+{
+    width:60px;height:45px;
+    cursor:pointer;
+    text-align:center;
+    border-left:1px solid #266ff3; border-right:1px solid #266ff3; 
+    
+    display:inline-block;
+    *display:inline;zoom:1; /*IE Hack*/
+}
+#thumbs .thumb-on {background-image: url(active-bg.png);}
+#thumbs .thumb img {vertical-align:middle;}
+
